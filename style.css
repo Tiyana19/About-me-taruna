@@ -1,0 +1,85 @@
+/*
+font-family: 'Arima',
+cursive;
+font-family: 'Calligraffitti',
+cursive;
+*/
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+                        /*** Header stylesheet ***/
+main {
+    text-align: center;
+    font-family: 'Arima',cursive;
+
+}
+header {
+    min-height: 100vh;
+    background-image: url("./images/mountain.png");
+    background-color: #E5D1FA;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    font-family: 'Calligraffitti', cursive;
+    padding-top: 3rem;
+}
+header .cloud-1 {
+    position: absolute;
+    top: 13rem;
+    left: 24rem;
+}
+header .cloud-2 {
+    position: absolute;
+    top: 17rem;
+    right: 20rem;
+}
+h1, h2 {
+    color: #B2A4FF;
+}
+h1 span {
+    display: block;
+    font-size: 5rem;
+    color: #AA77FF;
+}
+
+                        /*** Hello section ***/
+
+.hello, .skills, .contact ,footer {
+    padding: 2rem 25%;
+}
+.hello img {
+    border-radius: 100%;
+    width: 50px;
+}
+h1:hover, h2:hover {
+    color: #66347F;
+}
+                        /*** contact stylesheet ***/
+.contact button {
+    background-color: #AA77FF;
+    color: #fff;
+    font-weight: 500;
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #66347F;
+}
+
+
+
+                        /*** Footer stylesheet ***/ 
+
+footer {
+    background-color: #E5D1FA;
+}
+footer a {
+    margin: 3rem 2rem;
+}
